@@ -336,7 +336,12 @@ h3 {
 
 @media screen and (max-width:576px) {
     .hero_content p {
-        margin-top: 4rem;
+        margin-top: 3.5rem;
+    }
+
+    #hero {
+        padding-top: 130px;
+        padding-bottom: 110px;
     }
 }
 
@@ -671,7 +676,7 @@ h3 {
     display: inline-block;
     font-weight: 600;
     font-size: clamp(1.3rem, 2.5vw, 1.75rem);
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .solutions-info-list__details p {
