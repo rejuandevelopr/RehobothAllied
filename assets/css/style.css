@@ -664,7 +664,8 @@ h3 {
 .solutions-info__list span:first-child {
     display: inline-block;
     font-weight: 600;
-    font-size: clamp(1.5rem, 2.5vw, 1.75rem);
+    font-size: clamp(1.3rem, 2.5vw, 1.75rem);
+    color: var(--secondary-color);
 }
 
 .solutions-info-list__details p {
@@ -769,7 +770,7 @@ h3 {
     padding: 1rem 2.5rem 1rem 1rem;
     cursor: pointer;
     position: relative;
-    transition: background 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .faq-question::after {
@@ -778,12 +779,16 @@ h3 {
     right: 1rem;
     top: 1rem;
     font-size: 24px;
-    transition: transform 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .faq-question.active::after {
     content: '−';
     /* minus symbol */
+}
+
+.faq-question.active, .faq-question.active::after {
+    color: var(--secondary-color);
 }
 
 .faq-answer {
@@ -1032,6 +1037,11 @@ footer {
 .contact-form {
     padding-top: 140px;
     text-align: center;
+}
+
+.contact-form {
+    width: 100%;
+    margin: 0 auto;
 }
 
 @media screen and (max-width:1024px) {
