@@ -17,7 +17,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 
     <!-- Manifest for PWA / Android -->
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="manifest" href="site.webmanifest">
     <!-- Meta description -->
     <meta name="description" content="Rehoboth Allied Ventures markets, sells & distributes products across North America, the Middle East & Africa. Expand your reach with trusted global logistics.
 ">
@@ -28,9 +28,9 @@
     <meta property="og:title" content="Rehoboth Allied Ventures | Your Gateway to the World">
     <meta property="og:description"
         content="We market, sell, and distribute products across North America, the Middle East & Africa. Let Rehoboth power your brand’s global reach.">
-    <meta property="og:image" content="https://yourdomain.com/assets/images/og-image.jpg">
+    <meta property="og:image" content="https://rehoboth-allied.vercel.app/preview-image.png">
 
-    <meta property="og:url" content="https://yourdomain.com">
+    <meta property="og:url" content="https://rehoboth-allied.vercel.app/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Rehoboth Allied Ventures">
 
@@ -38,8 +38,7 @@
     <meta name="twitter:title" content="Rehoboth Allied Ventures | Your Gateway to the World">
     <meta name="twitter:description"
         content="We help your brand scale through smart marketing, logistics & global distribution across North America, MENA & Africa.">
-    <meta name="twitter:image" content="https://yourdomain.com/assets/images/twitter-card.jpg">
-
+    <meta name="twitter:image" content="https://rehoboth-allied.vercel.app/preview-image.png">
 
     <!-- Preload Fonts -->
     <link rel="preload" href="assets/fonts/Nexa-Bold.otf" as="font" type="font/otf" crossorigin>
@@ -53,42 +52,46 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="#" class="logo">
-                <img src="assets/images/Rehoboth-Allied Ventures-Crop.png" alt="">
-            </a>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="index.html" class="btn active" aria-label="Home">Home</a></li>
-                <li><a href="#services" class="btn" aria-label="Services">Services</a></li>
-                <li><a href="#faq" class="btn" aria-label="FAQ">FAQ</a></li>
-                <li><a href="contact.html" class="btn" aria-label="Cantact">Cantact</a></li>
-            </ul>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="#" class="logo">
+                    <img src="assets/images/Rehoboth-Allied Ventures-Crop.png" alt="">
+                </a>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="btn active" aria-label="Home">Home</a></li>
+                    <li><a href="#services" class="btn" aria-label="Services">Services</a></li>
+                    <li><a href="#faq" class="btn" aria-label="FAQ">FAQ</a></li>
+                    <li><a href="contact.html" class="btn" aria-label="Cantact">Cantact</a></li>
+                </ul>
 
-            <a href="#" class="phone desktop-phone" aria-label="Phone">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path
-                        d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
-                </svg>
-                <span>(123) 456 789</span>
-            </a>
+                <a href="#" class="phone desktop-phone" aria-label="Phone">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path
+                            d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
+                    </svg>
+                    <span>(123) 456 789</span>
+                </a>
 
-            <button class="mobile-menu-btn" id="mobileMenuBtn">
-                <svg id="menuIcon" viewBox="0 0 24 24" fill="#fff" stroke="#fff" stroke-width="2">
-                    <line x1="3" y1="12" x2="21" y2="12"></line>
-                    <line x1="3" y1="6" x2="21" y2="6"></line>
-                    <line x1="3" y1="18" x2="21" y2="18"></line>
-                </svg>
-                <svg id="closeIcon" style="display: none;" viewBox="0 0 24 24" fill="#fff" stroke="#fff"
-                    stroke-width="2">
-                    <line x1="18" y1="6" x2="6" y2="18"></line>
-                    <line x1="6" y1="6" x2="18" y2="18"></line>
-                </svg>
-            </button>
-        </div>
-    </nav>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <svg id="menuIcon" viewBox="0 0 24 24" fill="#fff" stroke="#fff" stroke-width="2">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                    <svg id="closeIcon" style="display: none;" viewBox="0 0 24 24" fill="#fff" stroke="#fff"
+                        stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
     <main>
-        <section id="hero" style="background-image: url('assets/images/hero.jpg');">
+        <!-- hero start -->
+        <section id="hero" style="background-image: url('assets/images/hero.avif');">
             <div class="container">
                 <div class="hero_content">
                     <h1 class="hero-title">Rehoboth Allied Ventures</h1>
@@ -101,7 +104,9 @@
                 </div>
             </div>
         </section>
+        <!-- hero end -->
 
+        <!-- about start -->
         <section class="about section">
             <div class="container">
                 <div class="two-col">
@@ -130,7 +135,9 @@
                 </div>
             </div>
         </section>
+        <!-- about end -->
 
+        <!-- services start -->
         <section class="section pt-0" id="services">
             <div class="container">
                 <h3 class="mb-34 text-center">Rehoboth Services</h3>
@@ -194,7 +201,9 @@
                 </section>
             </div>
         </section>
+        <!-- services end -->
 
+        <!-- global reach start -->
         <section class="section pt-0">
             <div class="container-fluid">
                 <div class="global-reach">
@@ -208,7 +217,9 @@
                 </div>
             </div>
         </section>
+        <!-- global reach end -->
 
+        <!-- business We Move Them start -->
         <section class="business-info section bg-gray">
             <div class="container">
                 <div class="two-col">
@@ -233,7 +244,9 @@
                 </div>
             </div>
         </section>
+        <!-- business We Move Them end -->
 
+        <!-- Tailored solutions for your needs start -->
         <section class="solutions-info section">
             <div class="container">
                 <div class="two-col">
@@ -304,7 +317,9 @@
 
             </div>
         </section>
+        <!-- Tailored solutions for your needs end -->
 
+        <!-- FAQ start -->
         <section class="section bg-gray" id="faq">
             <div class="container">
                 <div class="faq">
@@ -392,6 +407,7 @@
                 </div>
             </div>
         </section>
+        <!-- FAQ end -->
     </main>
 
     <!-- Footer Start -->
