@@ -334,6 +334,12 @@ h3 {
     }
 }
 
+@media screen and (max-width:576px) {
+    .hero_content p {
+        margin-top: 4rem;
+    }
+}
+
 /* Navbar */
 .navbar {
     background-color: var(--primary-color);
