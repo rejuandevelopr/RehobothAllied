@@ -88,6 +88,7 @@ body {
 }
 
 @media screen and (max-width:576px) {
+
     .container,
     .container-fluid {
         padding-left: 20px;
@@ -103,16 +104,20 @@ h1,
 h2,
 h3 {
     font-family: 'Trajan Pro', serif;
-    font-weight: bold;
 }
 
-h1 {
+.hero-title {
     font-size: 5rem;
     line-height: 1.1;
     letter-spacing: 0.02em;
-    font-weight: 400;
+    font-weight: 700;
     color: var(--color-white);
+    font-family: 'Trajan Pro', serif;
+    max-width: 992px;
+    text-align: center;
+    margin: 0 auto;
 }
+
 
 h2 {
     font-size: clamp(1.5rem, 3.5vw, 2.375rem);
@@ -139,6 +144,13 @@ h3 {
     padding-bottom: 140px;
 }
 
+@media screen and (max-width:1024px) {
+    .hero-title {
+        font-size: 6vw;
+        max-width: 576px;
+    }
+}
+
 @media screen and (max-width:992px) {
     .section {
         padding-top: 120px;
@@ -152,7 +164,7 @@ h3 {
         padding-bottom: 90px;
     }
 
-    h1 {
+    .hero-title {
         font-size: 3rem;
     }
 }
