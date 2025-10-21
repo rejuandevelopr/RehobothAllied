@@ -850,9 +850,28 @@ footer {
     margin-bottom: 10px;
 }
 
+.footer-left img:first-child {
+    width: 100%;
+    max-width: 170px;
+    height: auto;
+    display: block;
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width:1200px) {
+    .footer-left img:first-child {
+        max-width: 140px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .footer-left img:first-child {
+        max-width: 120px;
+    }
+}
+
 .footer-left h4 {
     color: var(--secondary-color);
-
 }
 
 .footer-left p {
