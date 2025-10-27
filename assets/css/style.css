@@ -466,7 +466,7 @@ h3 {
 @media (max-width: 769px) {
     .nav-menu {
         position: fixed;
-        top: 77px;
+        top: 66px;
         left: -100%;
         flex-direction: column;
         background-color: var(--primary-color);
