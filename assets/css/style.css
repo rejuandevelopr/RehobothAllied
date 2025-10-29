@@ -735,7 +735,7 @@ h3 {
     height: 100%;
     width: 100%;
     padding: 1rem;
-    background-color: #ddd;
+    background-color: var(--color-gray);
 }
 
 .global-reach__map img {
